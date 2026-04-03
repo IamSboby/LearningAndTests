@@ -6,30 +6,16 @@
 
 ## 📁 Projects
 
-| Folder | Description | Topics |
-|--------|-------------|--------|
-| `project-name/` | Short description of what it does | `topic`, `topic` |
-| `project-name/` | Short description of what it does | `topic`, `topic` |
-| `project-name/` | Short description of what it does | `topic`, `topic` |
-
-> ✏️ *Fill in your actual folder names and descriptions above!*
+Pyhton/
+├── Login.py (Fast CLI loginwall)
+├── Klondike.py (an CLI game based on klondike gold rush)
+└── Turtle_race.py (Horse racing but using turtle)
 
 ---
 
 ## 🚀 How to Run a Project
 
-Each folder is independent. Navigate into the one you want and run it on its own:
-
-```bash
-cd folder-name/
-# then run however that project works, e.g.:
-python main.py
-# or
-node index.js
-# or just open index.html in your browser
-```
-
-No shared setup, no monorepo magic — just open a folder and go.
+Each folder is independent. Navigate into the one you want and run every program on its own
 
 ---
 
@@ -46,8 +32,6 @@ Projects range from tiny scripts to slightly-less-tiny scripts. Quality varies �
 ---
 
 ## 🗂️ Topics Covered
-
-_(Update this list as you add projects!)_
 
 - [ ] Variables, loops, functions
 - [ ] Object-oriented programming
