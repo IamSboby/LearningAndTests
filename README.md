@@ -6,7 +6,7 @@
 
 ## 📁 Projects
 
-Pyhton/
+Pyhton
 
 ├── Login.py (Fast CLI loginwall)
 
@@ -37,12 +37,13 @@ Projects range from tiny scripts to slightly-less-tiny scripts. Quality varies �
 ## 🗂️ Topics Covered
 
 - [ ] Variables, loops, functions
-- [ ] Object-oriented programming
-- [ ] File I/O
-- [ ] APIs & HTTP requests
+- [ ] Phyton Basics module
+- [ ] Arduino basiscs
+- [ ] Small webpages
 - [ ] Data structures & algorithms
-- [ ] Web basics (HTML/CSS/JS)
-- [ ] ...and whatever comes next
+- [ ] little tests for api requests
+- [ ] some fast bashes to set up my linux servers and pcs
+- [ ] idk possible next things
 
 ---
 
