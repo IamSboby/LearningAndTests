@@ -2,7 +2,7 @@ import turtle
 import random
 import time
 
-# ── Constants ──────────────────────────────────────────────
+#Constants
 WIDTH,  HEIGHT  = 900, 580
 START_X, FINISH_X = -340, 340
 
@@ -15,7 +15,7 @@ LANE_BOT = -220
 LANE_H   = (LANE_TOP - LANE_BOT) // N   # lane height
 
 
-# ── Graphics functions ─────────────────────────────────────
+# Graphics setup
 
 def setup_screen():
     sc = turtle.Screen()
@@ -34,7 +34,7 @@ def draw_field():
     ref.pensize(2)
     ref.speed(4)  # visible speed – referee animation
 
-    # ── outer border ──
+    #outer border
     corners = [
         (START_X,  LANE_BOT),
         (FINISH_X, LANE_BOT),
@@ -48,18 +48,18 @@ def draw_field():
     for pt in corners[1:]:
         ref.goto(pt)
 
-    # ── lane lines ──
+    #lane lines
     for i in range(1, N):
         y = LANE_BOT + i * LANE_H
         ref.penup();  ref.goto(START_X, y)
         ref.pendown(); ref.goto(FINISH_X, y)
 
-    # ── start line (yellow) ──
+    # start line (yellow)
     ref.color('yellow');  ref.pensize(4)
     ref.penup();  ref.goto(START_X, LANE_BOT)
     ref.pendown(); ref.goto(START_X, LANE_TOP)
 
-    # ── checkered finish line (black/white) ──
+    # checkered finish line (black/white)
     ref.pensize(1)
     sq = 18
     cols_check = ['white', 'black']
@@ -74,7 +74,7 @@ def draw_field():
                 ref.forward(sq); ref.left(90)
             ref.end_fill()
 
-    # ── labels ──
+    # labels 
     def label(x, y, txt, col='white', size=13):
         lbl = turtle.Turtle()
         lbl.hideturtle(); lbl.penup()
@@ -112,8 +112,7 @@ def place_turtles():
     return racers
 
 
-# ── Race logic ─────────────────────────────────────────────
-
+# Race logic
 def run_race(racers, screen):
     """
     5 speed changes: each phase assigns random speeds to all turtles.
@@ -151,10 +150,10 @@ def run_race(racers, screen):
     return finish_order
 
 
-# ── CLI + main ─────────────────────────────────────────────
+#CLI + main 
 
 def main():
-    # ── CLI presentation ──
+    #  CLI presentation 
     print()
     print("==========================================")
     print("           TURTLE RACE                    ")
