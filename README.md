@@ -8,11 +8,12 @@
 
 Pyhton
 
-├── Login.py (Fast CLI loginwall)
-
-├── Klondike.py (an CLI game based on klondike gold rush)
-
-└── Turtle_race.py (Horse racing but using turtle)
+Pyhton
+├── login.py (Fast CLI loginwall)
+├── llondike.py (an CLI game based on klondike gold rush)
+├── turtle_race.py (Horse racing but using turtle)
+├── caesar_chipher.py (just a small chyper using caesar)
+└── wpmtest.py (reeeeeally basic speedtyping test)
 
 ---
 
